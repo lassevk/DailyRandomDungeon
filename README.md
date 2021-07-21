@@ -39,3 +39,19 @@ As long as there is a countdown, the time left will also be displayed to the lef
 If you mis-click on a character and start the countdown for it you can click the Undo button that pops up to restore it back to its previous state.
 
 If you wish to remove a character use the X button to the far right of the character name.
+
+# Dropbox support
+
+If you're using Dropbox, you can optionally use it to synchronize the status across multiple computers.
+
+To set this up, do the following in your Dropbox folder:
+
+1. Create a UserFolder directory in the root of your dropbox folder
+
+Also, on each computer you wish to use this on:
+
+1. Create an environment variable named DROPBOX with the full path to the root of your dropbox folder
+
+The program will then store the state of the characters in that UserFolder instead, and Dropbox will then synchronize it across your computers.
+
+Also note that the state will be read in realtime on all your computers, so if you start the program on multiple computers and hit Completed on one of them you will see the status change on all computers once Dropbox has finished synchronizing.
