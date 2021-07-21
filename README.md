@@ -55,3 +55,12 @@ Also, on each computer you wish to use this on:
 The program will then store the state of the characters in that UserFolder instead, and Dropbox will then synchronize it across your computers.
 
 Also note that the state will be read in realtime on all your computers, so if you start the program on multiple computers and hit Completed on one of them you will see the status change on all computers once Dropbox has finished synchronizing.
+
+# Disclaimer
+
+The program does not read any data from your computer except for a single file called `.eso-daily-dungeon-timers.json` in either your local user folder or the dropbox UserFolder
+if you set up the Dropbox synchronization.
+
+There is no network traffic, no settings or other data from your computer is ever read or used by the program.
+
+If you know how to read C# code you can check out the full source code to the project in this repository, and also build it from scratch yourself if you'd like.
