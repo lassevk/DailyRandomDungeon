@@ -40,6 +40,8 @@ If you mis-click on a character and start the countdown for it you can click the
 
 If you wish to remove a character use the X button to the far right of the character name.
 
+**Note!** You do not have to keep the program running for it to maintain its status. Everything is saved to a file on your computer so you can safely open the program, click the Completed button to signal a daily completion, and then immediatly close the program again. The next time you open the program it will have up-to-date status. The program simply stores the exact date and time that the daily rewards become available again for each character so it is not actually "counting down".
+
 # Dropbox support
 
 If you're using Dropbox, you can optionally use it to synchronize the status across multiple computers.
